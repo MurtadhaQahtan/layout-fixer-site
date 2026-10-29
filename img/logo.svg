@@ -7,10 +7,29 @@
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="28" fill="url(#g)"/>
-  <rect x="24" y="30" width="80" height="62" rx="10" fill="none" stroke="#fff" stroke-width="6"/>
-  <rect x="34" y="40" width="60" height="36" rx="6" fill="none" stroke="#fff" stroke-width="3.5"/>
-  <path d="M40 52 A24 14 0 0 1 88 48" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
-  <path d="M84 46 L92 42 L88 54" fill="#fff"/>
-  <path d="M88 70 A24 14 0 0 1 40 74" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
-  <path d="M44 76 L36 80 L40 68" fill="#fff"/>
+  <rect x="18" y="24" width="92" height="80" rx="14" fill="#fff" fill-opacity="0.16"/>
+  <!-- key border ring -->
+  <path fill="#fff" fill-rule="evenodd" d="
+    M32 24h64a14 14 0 0 1 14 14v52a14 14 0 0 1-14 14H32a14 14 0 0 1-14-14V38a14 14 0 0 1 14-14z
+    M38 34h52a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H38a8 8 0 0 1-8-8V42a8 8 0 0 1 8-8z"/>
+  <!-- inner face ring -->
+  <path fill="#fff" fill-rule="evenodd" d="
+    M44 40h40a5 5 0 0 1 5 5v30a5 5 0 0 1-5 5H44a5 5 0 0 1-5-5V45a5 5 0 0 1 5-5z
+    M48 46h32a2.5 2.5 0 0 1 2.5 2.5v21A2.5 2.5 0 0 1 80 72H48a2.5 2.5 0 0 1-2.5-2.5v-21A2.5 2.5 0 0 1 48 46z"/>
+  <!-- top curved arrow (filled thick stroke via path) -->
+  <path fill="#fff" d="
+    M38 62
+    C42 48, 86 44, 92 52
+    L96 48 L104 56 L92 60 L90 54
+    C86 50, 48 52, 44 60
+    Z"/>
+  <path fill="#fff" d="M100 52 L110 56 L100 66 Z"/>
+  <!-- bottom curved arrow -->
+  <path fill="#fff" d="
+    M90 70
+    C86 84, 42 88, 36 80
+    L32 84 L24 76 L36 72 L38 78
+    C42 82, 80 80, 84 72
+    Z"/>
+  <path fill="#fff" d="M28 80 L18 76 L28 66 Z"/>
 </svg>
