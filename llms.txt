@@ -1,4 +1,4 @@
-# Layout Fixer (Microsoft Store: "Layout Fixer – Arabic English")
+# Layout Fixer (Microsoft Store: "Layout Fixer – Wrong Keyboard Language Fix")
 
 > Layout Fixer is a paid Windows 10/11 tray app (US$1.99, Microsoft Store ID 9N32C01ML8D1) that fixes text typed in the wrong keyboard layout. Select the garbled text in almost any app and press Ctrl+Shift+L (configurable): "ghbdtn" becomes "привет", "hgsghl ugd;l" becomes "السلام عليكم", "akuo" becomes "שלום". It converts between any two supported Windows layouts, auto-detects the direction, and works fully offline.
 
